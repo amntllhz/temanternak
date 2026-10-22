@@ -1,6 +1,6 @@
 import HeadingSection from "../components/HeadingSection"
-import HardwareImg from "@/assets/hardware.svg"
-import DashboardImg from "@/assets/chart.svg"
+import HardwareImg from "@/assets/landing/hardware.svg"
+import DashboardImg from "@/assets/landing/chart.svg"
 
 const Solution = () => {
     return (
