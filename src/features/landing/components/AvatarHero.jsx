@@ -28,9 +28,9 @@ const AvatarHero = () => {
                         <AvatarFallback>ER</AvatarFallback>
                     </Avatar>
                 </AvatarGroup>
-                <p class="text-lg font-semibold flex items-center justify-center">
-                    <span class="inline-flex items-center">50</span>
-                    <span class="inline-flex items-center transform -translate-y-0.5">+</span>
+                <p className="text-lg font-semibold flex items-center justify-center">
+                    <span className="inline-flex items-center">50</span>
+                    <span className="inline-flex items-center transform -translate-y-0.5">+</span>
                 </p>
             </div>
         </>
