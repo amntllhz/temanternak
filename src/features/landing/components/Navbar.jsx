@@ -9,8 +9,8 @@ const Navbar = () => {
                     <img src={Logo} alt="logo" className="w-36" />
                 </div>
                 <div className="flex items-center gap-6">
-                    <a href="#" className="text-xs font-medium">Produk</a>
-                    <a href="#" className="text-xs font-medium">Solusi Digital</a>
+                    <a href="#Proof" className="text-xs font-medium">Produk</a>
+                    <a href="#Solution" className="text-xs font-medium">Solusi Digital</a>
                     <a href="#" className="text-xs font-medium">Analisis Usaha</a>
                     <a href="#" className="text-xs font-medium">Tentang</a>
                 </div>

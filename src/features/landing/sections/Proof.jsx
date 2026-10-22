@@ -3,7 +3,7 @@ import CustomBadge from "../components/CustomBadge";
 
 const Proof = () => {
     return (
-        <div className="max-w-5xl py-32 w-full flex items-center justify-between">
+        <div id="Proof" className="max-w-5xl py-16 w-full flex items-center justify-between">
 
             {/* Bagian Kiri */}
             <div className="flex flex-col space-y-1 flex-2">

@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import Hero from "./sections/Hero"
 import Proof from "./sections/Proof"
+import Solution from "./sections/Solution"
 
 const LandingPage = () => {
     return (
@@ -8,6 +9,7 @@ const LandingPage = () => {
             <Navbar />
             <Hero />
             <Proof />
+            <Solution />
         </div>
     )
 }
