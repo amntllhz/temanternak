@@ -3,6 +3,7 @@ import Hero from "./sections/Hero"
 import Proof from "./sections/Proof"
 import Solution from "./sections/Solution"
 import Benefit from "./sections/Benefit"
+import Comparison from "./sections/Comparison"
 
 const LandingPage = () => {
     return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
             <Proof />
             <Solution />
             <Benefit />
+            <Comparison />
         </div>
     )
 }

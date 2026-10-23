@@ -17,19 +17,19 @@ const AvatarHero = () => {
                 <AvatarGroup className="">
                     <Avatar size="sm">
                         <AvatarImage src={av1} />
-                        <AvatarFallback>CN</AvatarFallback>
+                        <AvatarFallback>av1</AvatarFallback>
                     </Avatar>
                     <Avatar size="sm">
                         <AvatarImage src={av2} />
-                        <AvatarFallback>LR</AvatarFallback>
+                        <AvatarFallback>av2</AvatarFallback>
                     </Avatar>
                     <Avatar size="sm">
                         <AvatarImage src={av3} />
-                        <AvatarFallback>ER</AvatarFallback>
+                        <AvatarFallback>av3</AvatarFallback>
                     </Avatar>
                     <Avatar size="sm">
                         <AvatarImage src={av4} />
-                        <AvatarFallback>ER</AvatarFallback>
+                        <AvatarFallback>av4</AvatarFallback>
                     </Avatar>
                 </AvatarGroup>
                 <p className="text-lg font-semibold flex items-center justify-center">
