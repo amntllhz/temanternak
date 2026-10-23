@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Hero from "./sections/Hero"
 import Proof from "./sections/Proof"
 import Solution from "./sections/Solution"
+import Benefit from "./sections/Benefit"
 
 const LandingPage = () => {
     return (
@@ -10,6 +11,7 @@ const LandingPage = () => {
             <Hero />
             <Proof />
             <Solution />
+            <Benefit />
         </div>
     )
 }
