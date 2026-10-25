@@ -39,8 +39,8 @@ const Proof = () => {
 
             {/* Bagian Kanan */}
             <div className="flex gap-3 flex-1">
-                <div className="h-52 flex flex-col gap-2 w-full bg-gray-200 rounded-xl flex-1 p-2">
-                    <div className="h-20 bg-white rounded-lg p-5">
+                <div className="h-52 flex flex-col gap-2 w-full bg-gray-100 ring ring-gray-200 rounded-xl flex-1 p-2">
+                    <div className="h-20 bg-white ring ring-gray-200 rounded-lg p-5">
 
                     </div>
                     <div className="p-1 flex flex-col space-y-1">
@@ -53,14 +53,14 @@ const Proof = () => {
                     </div>
                 </div>
                 <div className="h-52 w-full flex flex-col gap-3 flex-1">
-                    <div className="h-20 bg-gray-200 rounded-xl p-4 flex flex-col justify-end flex-1">
+                    <div className="h-20 bg-gray-100 ring ring-gray-200 rounded-xl p-4 flex flex-col justify-end flex-1">
                         <p className="text-3xl font-bold flex items-center">
                             <span className="inline-flex items-center">15</span>
                             <span className="inline-flex items-center">%</span>
                         </p>
                         <p className="text-xs text-neutral-500 font-semibold mt-1">Hemat Pakan</p>
                     </div>
-                    <div className="h-20 bg-gray-200 rounded-xl p-4 flex flex-col justify-end flex-1">
+                    <div className="h-20 bg-gray-100 ring ring-gray-200 rounded-xl p-4 flex flex-col justify-end flex-1">
                         <p className="text-3xl font-bold flex items-center">
                             <span className="inline-flex items-center">50</span>
                             <span className="inline-flex items-center transform -translate-y-0.5">+</span>

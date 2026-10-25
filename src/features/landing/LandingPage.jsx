@@ -4,6 +4,7 @@ import Proof from "./sections/Proof"
 import Solution from "./sections/Solution"
 import Benefit from "./sections/Benefit"
 import Comparison from "./sections/Comparison"
+import Analysis from "./sections/Analysis"
 
 const LandingPage = () => {
     return (
@@ -14,6 +15,7 @@ const LandingPage = () => {
             <Solution />
             <Benefit />
             <Comparison />
+            <Analysis />
         </div>
     )
 }

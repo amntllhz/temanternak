@@ -1,9 +1,9 @@
 
 const CardBenefit = ({ icon: Icon, title, description }) => {
     return (
-        <div className="p-4 h-40 bg-gray-200 rounded-2xl flex flex-col justify-between">
+        <div className="p-4 h-40 bg-gray-100 ring ring-gray-200 rounded-2xl flex flex-col justify-between">
 
-            <div className="bg-white p-2 rounded-md items-center w-8 h-8">
+            <div className="bg-white ring ring-gray-200 p-2 rounded-md items-center w-8 h-8">
                 <Icon className="size-4 text-grad2" />
             </div>
 
