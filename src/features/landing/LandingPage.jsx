@@ -6,6 +6,7 @@ import Benefit from "./sections/Benefit"
 import Comparison from "./sections/Comparison"
 import Analysis from "./sections/Analysis"
 import Contact from "./sections/Contact"
+import Footer from "./sections/Footer"
 
 const LandingPage = () => {
     return (
@@ -18,6 +19,7 @@ const LandingPage = () => {
             <Comparison />
             <Analysis />
             <Contact />
+            <Footer />
         </div>
     )
 }
