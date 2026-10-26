@@ -159,6 +159,7 @@ export default function Analysis() {
                                             id={name}
                                             inputMode="numeric"
                                             autoComplete="off"
+                                            className="text-xs!"
                                             value={values[name] ? fmtN(Number(values[name])) : ""}
                                             onChange={(e) => handleChange(name, e.target.value)}
                                         />
