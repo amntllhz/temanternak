@@ -1,3 +1,4 @@
+import { Stagger, StaggerItem } from "../../../components/Stagger"
 import CardBenefit from "../components/CardBenefit"
 import HeadingSection from "../components/HeadingSection"
 import { benefits } from "../data/benefits"
@@ -10,11 +11,13 @@ const Benefit = () => {
                 description="Kombinasi sensor pintar dan software analytics untuk menjaga stabilitas ekosistem peternakan"
             />
 
-            <div className="grid grid-cols-3 gap-4">
+            <Stagger className="grid grid-cols-3 gap-4" delay={0.1}>
                 {benefits.map((b) => (
-                    <CardBenefit key={b.title} {...b} />
+                    <StaggerItem key={b.title}>
+                        <CardBenefit key={b.title} {...b} />
+                    </StaggerItem>
                 ))}
-            </div>
+            </Stagger>
         </div>
     )
 }

@@ -19,6 +19,8 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 import { buildWaLink } from "@/lib/contact";
 import { jenisKandangOptions } from "../data/contact";
+import FadeIn from "../../../components/FadeIn";
+import BlurText from "../../../components/BlurText"
 
 const EMPTY = { nama: "", whatsapp: "", jenisKandang: "", jumlahPuyuh: "", kebutuhan: "" };
 const labelCls = "text-[10px] text-neutral-400";
@@ -52,6 +54,22 @@ const Contact = () => {
                     </svg>
                     <div className="flex flex-col space-y-1.5">
                         <h3 className="text-lg font-semibold text-white tracking-tight leading-snug">Siap Modernisasi dan Tingkatkan Produktivitas Kandang?</h3>
+                        <BlurText
+                            text="Siap Modernisasi dan Tingkatkan Produktivitas Kandang?"
+                            effect="blur"
+                            animateBy="words"
+                            direction="bottom"
+                            staggerFrom="start"
+                            trigger="view"
+                            delay={50}
+                            stepDuration={0.30}
+                            blur={10}
+                            distance={20}
+                            className="text-lg font-semibold text-white tracking-tight leading-snug"
+                            loop={false}
+                            loopDelay={2}
+                            focusOnHover={false}
+                        />
                         <p className="text-xs text-neutral-200">Membantu merancang instalasi IoT dan konfigurasi sistem ERP yang tepat sesuai skala populasi peternakan</p>
                     </div>
 

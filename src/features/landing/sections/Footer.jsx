@@ -1,6 +1,4 @@
 import Logo from "@/assets/temanternak-logo-white.svg";
-import { navLinks } from "../data/nav";
-import { Separator } from "@/components/ui/separator";
 
 const Footer = () => {
     return (
