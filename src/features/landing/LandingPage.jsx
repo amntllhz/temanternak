@@ -5,6 +5,7 @@ import Solution from "./sections/Solution"
 import Benefit from "./sections/Benefit"
 import Comparison from "./sections/Comparison"
 import Analysis from "./sections/Analysis"
+import Contact from "./sections/Contact"
 
 const LandingPage = () => {
     return (
@@ -16,6 +17,7 @@ const LandingPage = () => {
             <Benefit />
             <Comparison />
             <Analysis />
+            <Contact />
         </div>
     )
 }

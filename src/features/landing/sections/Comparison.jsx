@@ -1,6 +1,5 @@
 import HeadingSection from "../components/HeadingSection";
 import { comparisonRows } from "../data/comparison";
-import { Sparkles, SquareX } from "lucide-react";
 
 const Comparison = () => {
     return (

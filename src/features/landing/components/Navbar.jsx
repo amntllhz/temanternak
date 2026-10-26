@@ -22,7 +22,7 @@ const Navbar = () => {
             {/* wrapper: atur lebar + margin */}
             <div
                 className={cn(
-                    "relative mx-auto mt-3 w-[calc(100%-2rem)] max-w-5xl transition-all duration-300 ease-out",
+                    "relative mx-auto mt-3 w-[calc(100%-2rem)] max-w-5xl transition-all duration-200 ease-out",
                     scrolled
                         ? "md:mt-3 md:w-[calc(100%-2rem)] md:max-w-5xl"
                         : "md:mt-0 md:w-full md:max-w-6xl"
@@ -31,7 +31,7 @@ const Navbar = () => {
                 {/* bar: atur background + blur + padding */}
                 <div
                     className={cn(
-                        "flex items-center justify-between rounded-xl bg-white/10 px-5 py-3 backdrop-blur-md transition-all duration-300 ease-out",
+                        "flex items-center justify-between rounded-xl bg-white/10 px-5 py-3 backdrop-blur-md transition-all duration-200 ease-out",
                         scrolled
                             ? "md:bg-white/10 md:px-5 md:py-3 md:backdrop-blur-md"
                             : "md:bg-transparent md:px-4 md:py-5 md:backdrop-blur-[0px]"
